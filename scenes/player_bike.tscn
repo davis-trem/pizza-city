@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cti608drgrwu8"]
+
+[ext_resource type="PackedScene" uid="uid://4eqbykdg617b" path="res://assets/models/man_on_bike/man_on_bike_model.gltf" id="1_op5tx"]
+
+[node name="PlayerBike" type="Node3D"]
+
+[node name="BikeModel" parent="." instance=ExtResource("1_op5tx")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-1, -2.26267e-08, 8.44439e-08, 3.587e-08, 0.77468, 0.632354, -7.9725e-08, 0.632354, -0.77468, 0, 9.21099, -7.30611)
